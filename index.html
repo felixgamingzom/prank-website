@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prank Website</title>
+</head>
+<body>
+	<h1>Click the button to win a prize!</h1>
+	<button onclick="rickroll()">Click Me!</button>
+	
+	<iframe id="rickroll-iframe" width="640" height="360" src="" frameborder="0" allowfullscreen></iframe>
+	
+	<script>
+		function rickroll() {
+			document.getElementById("rickroll-iframe").src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
+		}
+	</script>
+</body>
+</html>
